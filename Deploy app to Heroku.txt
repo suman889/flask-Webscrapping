@@ -1,0 +1,20 @@
+app name = amazon-review-scrapper
+
+how to deploy app to heroku
+
+1. type git init
+
+2. heroku login
+
+3. heroku git:remote -a appname
+
+4. pip install gunicorn [Dont install if already]
+
+5. git add .
+
+6. git commit -m "first commit"
+
+7. git push heroku master
+
+
+type, in order to delete the app-->> heroku apps:destroy

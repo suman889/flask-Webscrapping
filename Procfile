@@ -1,0 +1,1 @@
+web: gunicorn Amazon_Review_Scrapper:app
